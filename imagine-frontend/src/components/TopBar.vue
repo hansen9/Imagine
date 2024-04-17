@@ -1,6 +1,11 @@
 <template>
     <div class="navbar">
-        <img alt="Vue logo" src="../assets/logo.png">
+        <v-img
+          :src="require('../assets/logo.svg')"
+          class="my-3"
+          contain
+          height="200"
+        />
         <nav>
             <router-link to="/">Home</router-link> |
             <router-link to="/about">About</router-link> | 
