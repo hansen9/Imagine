@@ -16,26 +16,26 @@
                 <v-container class="my-5">
                     <v-layout row wrap>
                         <v-flex xs12 sm6 md4 lg3 v-for="post in posts" :key="post">
-                                <v-card 
-                                flat 
-                                class="text-xs-center ma-3 imageCard" 
-                                >
-                                    <v-responsive class="pt4">
-                                        image goes here
-                                    </v-responsive>
-                                    <v-card-text>
-                                        <div class="subheading">{{ post.owner }}</div>
-                                        <div class="grey-text">#hashtag</div>
-                                    </v-card-text>
-                                    <v-card-actions>
-                                        <v-btn flat class="grey-text" @click="toggleLike">
-                                            <v-icon small left>{{ likeIcon }}</v-icon>
-                                        </v-btn>
-                                        <v-btn flat class="grey-text" @click="toggleKeep">
-                                            <v-icon small left>{{ keepIcon }}</v-icon>
-                                        </v-btn>
-                                    </v-card-actions>
-                                </v-card>
+                            <v-card 
+                            flat 
+                            class="text-xs-center ma-3 imageCard" 
+                            >
+                                <v-responsive class="pt4">
+                                    image goes here
+                                </v-responsive>
+                                <v-card-text>
+                                    <div class="subheading">{{ post.owner }}</div>
+                                    <div class="grey-text">#hashtag</div>
+                                </v-card-text>
+                                <v-card-actions>
+                                    <v-btn flat class="grey-text" @click="toggleLike">
+                                        <v-icon small left>{{ likeIcon }}</v-icon>
+                                    </v-btn>
+                                    <v-btn flat class="grey-text" @click="toggleKeep">
+                                        <v-icon small left>{{ keepIcon }}</v-icon>
+                                    </v-btn>
+                                </v-card-actions>
+                            </v-card>
                         </v-flex>
                     </v-layout>
                 </v-container>
