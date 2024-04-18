@@ -1,11 +1,7 @@
 <template>
     <div class="navbar">
         <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="200"
-        />
+          src="@/assets/logo.png"/>
         <nav>
             <router-link to="/">Home</router-link> |
             <router-link to="/about">About</router-link> | 
@@ -30,7 +26,6 @@ export default {
     .navbar{
         background-color: #C5FF95;
         height: 100px;
-        /* padding: 5px; */
         padding-left: 5px;
         padding-right: 5px;
     }
@@ -39,10 +34,10 @@ export default {
         margin-top: 25px;
         margin-bottom: 10px;
     }
-    img{
+    /* img{
         width: 50px;
         height: 50px;
-    }
+    } */
     img, nav{
         float: left;
     }
