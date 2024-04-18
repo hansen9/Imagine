@@ -42,10 +42,6 @@ export default {
         padding-left: 5px;
         padding-right: 5px;
     }
-    .navbar *{
-        /* display: inline-block; */
-        /* margin-top: 25px; */
-    }
     a{
         color: #5DEBD7;
     }
