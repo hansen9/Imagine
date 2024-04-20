@@ -14,13 +14,11 @@
         
 
         <v-card-actions class="float-right">
-            <v-btn flat class="grey-text">
+            <v-btn flat class="grey-text" :to="{name: 'login'}">
                 Log In
-                <!-- <v-icon small left>{{ likeIcon }}</v-icon> -->
             </v-btn>
-            <v-btn flat class="grey-text">
-                <router-link to="/signup">Sign up</router-link>
-                <!-- <v-icon small left>{{ keepIcon }}</v-icon> -->
+            <v-btn flat class="grey-text" :to="{name: 'signup'}">
+                Sign up
             </v-btn>
         </v-card-actions>
     </div>
