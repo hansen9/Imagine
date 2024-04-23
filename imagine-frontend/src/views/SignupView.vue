@@ -1,5 +1,5 @@
 <template>
-  <v-sheet class="mx-auto mt-6" width="300">
+  <v-card class="mx-auto pa-12 mb-8 mt-6" width="448">
     <v-form @submit.prevent>
       <v-text-field
         v-model="firstName"
@@ -29,7 +29,7 @@
         ></v-text-field>
       <v-btn class="mt-2" type="submit" block>Submit</v-btn>
     </v-form>
-  </v-sheet>
+  </v-card>
 </template>
 
 <script>
