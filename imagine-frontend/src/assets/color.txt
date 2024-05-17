@@ -2,6 +2,6 @@
 #5DEBD7
 #1679AB
 #A3FFD6
-#7BC9FF
+#7BC9FF -> Navbar
 #8576FF
-#1C1678
+#1C1678 -> font p
