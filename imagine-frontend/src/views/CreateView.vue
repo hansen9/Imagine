@@ -7,13 +7,15 @@
         <div class="ma-auto"> 
             <h1>this is create page</h1>
             <DropZone @drop.prevent="drop" @change="selectedFile" />
-            <img 
-            class="file-image ma-auto" 
-            :src="imageURL"
-            width="700"
-            height="200"
-            >
-            <span class="file-name">File: {{ dropzoneFile.name }}</span>
+            <div v-if="imageURL != null">  
+                <img 
+                class="file-image ma-auto" 
+                :src="imageURL"
+                width="700"
+                height="200"
+                >
+                <span class="file-name">File: {{ dropzoneFile.name }}</span>
+            </div>
         </div>
     </v-card>
 </template>
